@@ -1,0 +1,121 @@
+What is FrameWork:
+------------------
+
+FrameWork:
+----------
+	Set of protocols | Rules |  Guidelines which need to be followed for Better out
+
+Why FrameWork:
+--------------
+	To have effective/Good outcome (In Case of Our example effective seminar)
+
+
+Test Automation Framework:
+--------------------------
+	Set of Re-usable Classes, methods(Functions) & Object repository.
+
+
+Total How Many times  4:
+------------------------
+
+Object repository: 
+------------------
+	This is collection of all Objects Property(id, name,css, linktext,xpath)
+	for Ease of Change(Ease of Maintain)
+
+	>UserName has been used  in 10 Classes
+	>If UserName property changed we need to do Changed at 10 (If Object Repository 		is not used)
+	>But One Place if You are using Object Repository.
+
+Advantage of Framework:
+-----------------------
+	1.Ease of Change(Easy to Maintain)
+	2.Code Re-usability is there(Need to write once & Many time can be used)
+	3.Easy of trace.
+-----------------------------------------------------------------------------------
+	Types of Framework:
+	-------------------
+	1.User-Defined Framework:
+		1.Data-Driven Framework.	
+		2.Keyword Driven Framework
+		3.Hybrid(Data + Keyword) 
+
+	2.Pre-defined Framework:
+		1.Junit
+		2.TestNG
+		3.Cucumber
+---------------------------------------------------------------------------------------
+	What is TestNG:(NG means next Generation)
+	---------------
+	>It is Unit Testing Framework used by developer at time of Development of 	Modules|Unit
+	
+	Why:
+	----
+	>WebDriver does not have in-build capacity to generate reports, Hence there is 		need of Report generator tool.
+	>Better Management of Tests
+
+
+	Why TestNG(Why not Junit)
+	>Meaningful annotations name
+	>Making test suite is easy as compare to Junit
+	>Parallel Testing is possible in Testng
+	>HTML reports also generated( not generated in Junit).
+
+	How to do Installations of TestNG:
+ 	1.Go inside Help> MarketPlace
+	2.Enter TestNG in Find Field & Click on Go.	
+	3.
+
+
+---------------------------------------------------------------------------------------
+	How to Verify Back-ground Color using WebDriver:
+	------------------------------------------------
+ 
+		
+
+Task 1: Do following using testNG
+-------
+1.Open a ChromeBrowser with url: https://www.rediff.com/
+2.Enter Yes Bank Ltd in Enter Company Field which is at top & Search
+3.Verify opened page/tab contains YES BANK LTD
+4.Close the Tab & Come back to orignal Page & Print title of Original Page
+-----------------------------------------------------------------------------
+ 
+
+What is Test Suite:
+-------------------
+Group of Test Cases > Test Suite
+
+Why Test Suited : 
+----------------
+To run test scripts in Single attempt.
+
+
+
+
+
+Annotation Execution Flow:
+-------------------------
+In Before Suite
+In Before Test
+In Before Class
+In before Method
+In Test 1
+In after Method
+In before Method
+In Test 2
+In after Method
+In before Method
+In Test 3
+Fri Jul 24 16:31:45 IST 2020
+In after Method
+In after Class
+In After Test
+------------------------------------------------------------------
+
+Currently DataProvider has local Data.
+Your DataProvider will take data from Excel Sheet
+
+
+
+

@@ -1,0 +1,228 @@
+Allure & ExtentReport :
+------------------------
+
+You made script & run it..& Reporting part is Very much important.
+If Report can be understood by Client which presentable & it is bar graph & Pie Chart Then your client & team will be in more confidance
+
+-----------------------------------------------------------------------------------
+
+Reflection is for What purpose ??
+---------------------------------
+
+If you want to do inspection of any java class:
+-----------------------------------------------
+
+Selenium RC			>10 Projects
+
+Selenium WebDriver 2.0 > In Selniunm 2.0 was having  WebDriverBacked Facility which helps to run Selenium RC|1.0 Scripts  on WebDriver 2.0 with little Change in BeforeTest of TestNG
+
+WebDriverBacked is removed in Selenium 3.0
+---------------------------------------------------------------------------------------
+Classification of Selenium IDE Commands:
+---------------------------------------
+	1.Actions
+		Click, SendKeys, Select > Which Changes Application Status
+	
+	2.Accessors:
+		Store like Commands are 
+
+	3.Assertion
+		Which does comparision between Expected & Actual Behaviour
+		
+		verify title
+		assert title
+		verify text
+		assert Text etc.
+--------------------------------------------------------------------------------------
+
+WebDriver driver=new ChromeDriver()
+
+How Many Interfaces:
+-------------------
+WebDriver
+WebElement
+JavaScriptExecutor
+Action
+TakesScreen
+Alert
+
+
+
+Classes:
+----------
+FirefoxDriver
+ChromeDriver
+Actions
+Select
+ChromeOPtions
+RemoteWebDriver
+DesiredCapabilities
+
+
+
+driver.findElement(By.id).click()
+
+WebElement functions used :
+click()
+clear()
+sendKeys()
+getText()
+getCssValue()
+getAttribute("href")
+isEnabled()
+isSelected()
+isDisplayed()
+
+---------------------------------------------------------------------------------------
+Actions :
+--------
+sendKeys(search,"lti")
+keyUp(Keys.SHIFT)
+doubleClick(search)
+contextClick(search)   //right Click
+build();
+
+
+Action functions::
+------------------
+perform()
+
+-----------------------------------------------------------------------------------
+
+dropDown:
+----------
+Select s=new Select(driver.findElement(By.id());
+s.selectByVisibleText()
+s.selectByIndex()
+s.selectByValue
+
+
+isMultiple()
+
+s.deselectByVisibleText()
+s.deselectByIndex()
+s.deselectByValue
+s.deselectAll()
+-----------------------------------------------------------
+
+Handling Alert:
+---------------
+Alert a=driver.switchTo().alert()
+a.dismiss()
+a.accept()
+a.getText()
+a.senKeys()
+
+---------------------------------------------
+switchTo():
+----------
+iframe
+alert
+window
+
+------------------------------------------------------
+
+IFRAME:
+--------
+1.driver.switchTo().frame(index)
+2.driver.switchTo().frame(id or name)
+3.driver.switchTo().frame(WebElement)> driver.switchTo().frame(driver.findElement) 
+driver.switchTo().defaultContent()
+
+Window Handling:
+----------------
+String ID=driver.getWindowHandle()
+
+Set<String> All_ID=driver.getWindowHandles()
+
+driver.close() > ForClosing Tab or Selected Window
+----------------------------------------------------
+
+Set<Cookie> CK=driver.manage().getCookies();  for Getting All Cookies
+	driver.manage().deleteCookieNamed(name);
+	driver.manage().deleteAllCookies();
+	driver.manage().deleteCookie(cookie);
+-----------------------------------------------------------------
+
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().back();
+		driver.navigate().refresh();
+
+--------------------------------------------------
+
+
+
+In Before Suite
+In Before Test
+In Before Class
+In before Method
+In Test 1
+In after Method
+In before Method
+In Test 2
+In after Method
+In before Method
+In Test 3
+
+In after Method
+In after Class
+In After Test
+
+
+Assert.assertEquals(actual, Expected ,"optinal: Error Messages if Failed then");
+
+
+http://total-qa.com/quiz/selenium-quiz/
+https://www.guru99.com/component/com_joomlaquiz/Itemid,1187/quiz_id,3/view,quiz/
+http://www.magneticautomation.in/p/selenium.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,300 @@
+
+
+Actions:
+--------
+	Is A Class which is used for handling Mouse & Keyboard.
+
+	Actions ac=new Actions(driver).
+
+
+Problem Scenario:
+-----------------
+1.Open http://ugc.ac.in
+2.Mouse hover on Universities
+3.Mouse hover on Central University
+4.Print url on which Central University is Pointing 
+5.Then Click on Central University
+6.Capture & Print title 
+
+If Complete with point no. 5 please mention done in Chat box.
+
+
+------------------------------------------------------------
+Task 1:
+-------
+1.Pranav
+2.Karishma
+3.Ashish
+4.Anand
+5.Rahul
+
+
+-------------------------------------------------------------
+How to Handle Multiple Tab | Windows
+------------------------------------
+
+WebDriver maintains ID of Every Tab|Window
+
+Hello, Premchand  : 
+partiallinkText : When Some Part of linkText is Constant & Some  part is not constant.
+
+	It will not do exact match inspite of that it does checking that linktext 	Contains mentioned text or not.
+--------------------------------------------------------------------------------------
+
+
+https://www.naukri.com/
+
+----------------------------------------------------------------------------
+Actions > Mouse & KeyBoard
+
+Why & When : In case in project there is need of Controlling keyboard
+	i.e Pressing ctrl, or Shift button
+
+How :
+
+
+Problem Scenario:
+----------------
+1.Open Google.com
+2.Type 'lti' text from programme but it should type in capital letter in search box of Google
+3.double click to select text 
+4.do right Click
+
+
+Difference Between Actions & Action
+		1.Actions:
+				It is Class
+				Used in Situation when there is need of handling Keyboard 
+				or Mouse
+				
+		2.Action
+				>It is Interface
+				>WhenEver there is need of composite(collection of Steps) 				Actions	then you can store & later it can be used by 				perform method
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Iframe: if you are interested to show content|video from any other source | Page
+------ then you should use Iframe
+	
+	>Tag of Iframe will start with iframe
+	>Iframe may or May not have id or name but src will be always there.
+
+	
+Why: How to handle iframe in case your your application is having that.
+
+How to handle Iframe:
+	1.driver.switchTo().frame(int arg > index of frame)
+	2.driver.switchTo().frame(String arg > id or name)
+	3.driver.switchTo().frame(WebElement > driver.findElement(By arg))
+
+
+
+What is Xpath:
+
+
+Xpath : /html/body/div[1]/div/div/header/div/nav/div/div/div/div[1]/div[1]/div/ul/li[1]/a
+
+
+C:\Users\Bhajan\Desktop\TSL-AT
+
+DOM: Document Object Model: A standard for HTML page Layout
+---------------------------	
+
+
+Advantage of Xpath:
+-------------------
+	1.It works approx for Every Web Object | Element
+
+DisAdvantage:
+	1.It is Page Layout dependant
+		
+
+
+#post-body-7286250640269124831 > div:nth-child(1) > table:nth-child(10) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(6)
+
+/html/body/div[1]/div/div/div/main/div[2]/div/div/article/div[1]/div/div[2]/div/div[4]/div/table/tbody/tr[3]/td[6]
+
+Absolute Xpath:
+	>/html/body/div[1]/div/div/div/main/div[2]/div/div/article/div[1]/div/div		[2]/div/div[4]/div/table/tbody/tr[3]/td[6]
+	> It starts with root '/html'
+	>It is Totally Page Layout dependant
+	>Not recommended at all
+Relative Xpath:
+	>//td[contains(text(),'9')]
+	>It starts '/' (Single Slash)
+	>This is Partially Page Layout dependant
+	>Can be used in case of difficulties in locating Object
+---------------------------------------------------------------
+CSS vs Xpath
+CSS
+	1.Difficult in typing
+	2.It can move in One direction(Parent node to child node only)
+Xpath
+	1.Easy to Write
+	2.It Can move from Parent node/tag  to child node/tage
+	And Child node to Parent node.
+------------------------------------------------------------------
+
+Problem Scenario:
+----------------
+1.Open http://rediff.com
+2.Print BSE & NSE rate in Console
+
+
+Task 2.:
+--------
+1.Raj Kamal
+2.Ashish
+3.Rajendra
+4.Utkarsh
+5.A Anandu
+------------------------------------
+
+Xpath: Sequenced Collection of html nodes
+
+Two Xpath:
+	Absolute Xpath:
+		1./html[1]/body[1]/div[2]/div[1]/div[2]/a[1]
+		2.Starts with Root '/html'
+	Relative Xpath
+		1.//*[@id="bseindex"]
+		2.Starts with '//' double slash (which is not Root) 
+
+Syntax of Relative Xpath:
+-------------------------
+	1.Xpath with Id/name/value/any attribute
+		//htmltag[@type/value/name/any attribute='value of that attribute/prop']
+		
+		//input[@id='email']
+		//*[@id='email']
+
+		//input[@name='pass']
+		
+		//*[@type='submit']
+
+	2.For text Synatx:
+		//htmltag[text()='value of text']
+
+		//*[text()='for a celebrity, band or business.']
+		 >> It is doing exact Match
+
+	3.Using Contains:
+		1.//htmltag[contains(text(),'value of text')]
+		//*[contains(text(),'for a celebrity, band or business.')]
+
+		2./htmltag[contains(@type/value/name/any attribute,'value of that attribute/prop')]
+
+			//input[contains(@name,'gender')] > on Male|Female Radio of rediff registration Page
+		
+//input[contains(@name,'gender']		
+gender0b7eefc9
+gender3ecdf0de
+
+------------------------------------------------------------------------
+	//a[text()='Component Reference']
+
+	Child Element|tag > Parent Element| tag
+
+	//a[text()='Component Reference']/parent::li
+
+	//a[text()='Component Reference']/parent::li/parent::ul
+	
+	Best Practices
+	Functional References  do not have unique Property 
+
+	Sibling Concept:
+	---------------
+	//a[text()='Component Reference']/parent::li/following-sibling::li
+
+	First Sibling:
+	-----------------
+	//a[text()='Component Reference']/parent::li/preceding-sibling::li[1]
+
+	Preceding Sibling:
+	-----------------
+	//a[text()='Component Reference']/parent::li/preceding-sibling::li
+
+------------------------------------------------------------------------------------
+ First > idea
+ Second > Practice
+ Third > Master
+------------------------------------------------------------------------------------
+
+Actions:
+	drag and drop:
+	
+	
+---------------------------------------------------------------------------------------
+
+TakingScreenShot:
+-----------------
+Why:-	1.In Case of Failure of your test case , you want to take screenshot of WebPage for debugging & 	analysing what happened with my Application
+
+How : 
+	We need to Typecast driver
+	TakesScreenShot tc=(TakesScreenShot)driver
+
+------------------------------------------------------------------------------------------------------------	
+
+Task 3:
+	1.Open ShopperStop WebSite
+	2.CLick on All Stores (Available at top)
+	3.Select Mumbai in Your City
+	4.Print all Stores available in Mumbai
+	5.Verify Lature, Chennai, Agra is Present in your City(In Console Mention Present if Present in 	dropdown)
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Q1:getWindowhandles
+
+Anand
+Rahul
+Deepanshu
+Patric
+Avinash
+
+Q2:
+Anand
+Anurag
+Patric
+Karishma
+Senin
+
+3.:
+Rahul
+Anurag
+Rajendra
+Adarsh
+Ayushi
+
+4:
+Avinash
+Venu
+Sainath
+bhawana
+Pranav
+
+
+Q5.
+Senin
+NagaSai
+Pranav
+SaiNath
+Patric
+
+
+
+
+
+
+		ArrayList<String> allWin2 =new ArrayList<String>(driver.getWindowHandles()) ;

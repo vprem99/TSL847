@@ -1,0 +1,121 @@
+ 
+Problem Statement :
+------------------
+1. I want to Run My Parametrization Script Once for Chrome & Second time for Firefox
+  a.Sequencially
+  b.Parallel (Saves your Execution Time)
+
+-----------------------------------------------------------------------------------
+How It is possible:
+	By Passing Parameters from XML file.
+
+Why:
+	To Control My Scripts with the help of XML.
+	It makes your script Easy to Maintain
+
+Development Environment  |     Testing(Stagging)  |pre-production Env | Production
+ URL				URL			URL		URL
+
+URL  : 10 Places
+
+If you control url with XML file | property file(simple text file) then it will be easy to change|update.
+
+---------------------------------------------------------------------------------------
+
+>We so far with TestNG, Now we will see how to work with Junit Class.
+
+
+With help of WebDriver .
+
+
+219c8f80a7c91925619ea2c89b3e6e76
+219c8f80a7c91925619ea2c89b3e6e76
+
+
+FAbb90eb88769eb1e61031d168ac418aa5
+FAbb90eb88769eb1e61031d168ac418aa5
+
+
+Conclusion :
+-------------
+We can read the cookie with help of WebDriver  using 
+	Set<Cookie>	allCookie=driver.manage().getCookies()
+
+
+In Some Application it is able to read all Cookies but in Cases It is not.
+We did negative testing.
+Deleting all Cookies after Login & refreshing Page we are navigated towards login Page.
+---------------------------------------------------------------------------------------
+
+Why to make test Suite: 
+	Run Test Cases in Single attempt according to group that is Made.
+
+ATM: 1.Customer >10 TC
+     2.Tech     >8 TC
+ 
+
+-------------------------------------------------------------------------------------
+
+Synchronization:
+		Matching Speed between Two Things:
+				1.FrontAccounting
+				2.Selenium 
+				 (It is firing every Command with Equal Speed)
+
+		Solutions for this Problem:
+		1.Thread.sleep(6000) > SME will not like it
+
+		Selenium Provided Solution:
+		1.ImplicitWait
+			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		
+		2.ExplicitWait
+		3.FluentWait
+
+			All three takes  desired time. They will not take whole time as 			Mentioned during Declaration.
+Welcome back..
+	
+
+
+
+Task 2: Do following using Junit 4.
+-----------------------------------
+1.Open "https://www.rediff.com/"
+2.Click on Sports 
+3.Verify the title of GET AHEAD is 'Get Ahead headlines'
+4.Print News available in Sports Section
+
+
+--------------------------------------------------------------------------------------
+Status Codes:
+-------------
+	> Status codes are always given By Web Server along with your response
+	> Status codes gives idea whether request is processed properly or not ?
+	2xx > Success
+	3xx > Redirection
+	4xx > Client side Error
+	5xx > Server side error
+	
+	>Finding Broken Images with help of Status Codes only
+
+
+
+//ul[@id='ui-id-1']/li/a[contains(text(),'Ahmedabad')]
+//ul[@id='ui-id-2']/li/a[contains(text(),'Mumbai')]
+	
+
+
+Implicit Wait 					Explicit Wait
+1.Global Wait					1.For Particular Object | Condition
+2.Only for Visibility of Object			2.Can wait for Alert, Frame, NumberofTabs
+						url, particular title, invisibilityalso
+3.Need to declare only once			3.Multiple time Explicit functions need 						to be called
+
+4.Must have implicit wait			4.Depends upon Project need.
+
+
+
+
+
+
+

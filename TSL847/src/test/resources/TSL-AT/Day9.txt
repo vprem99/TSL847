@@ -1,0 +1,114 @@
+Data-Driven Testing:
+-------------------
+Performing same steps with different set of data
+
+Test Script		POI		Excel
+					DataProvider of TestNG
+			OpenCSV		CSV
+			OJDBC		DataBase
+
+
+
+
+----------------------------------------------------------------------------
+
+Create a table login 
+Login will have three columns like UN,PWD,STATUS 
+
+Insert records
+
+UN		PWD
+admin		admin123
+demouser	password
+hr		hr123
+demo		demo123
+sys		system123
+---------------------------------------------------------------------------------------
+
+UPDATE `login` SET `STATUS`='PASS' WHERE where UN='admin'
+UPDATE `login` SET `STATUS`='PASS' WHERE UN='admin' 
+----------------------------------------------------------------------------------------
+
+Selenium Grid :
+---------------
+MAster & Slave architecture:
+Hub	 Node
+-------------------------------------------------------------------------------------
+
+Why Selenium Grid:
+-------------------
+1000 TC > Firefox of Linux 
+1000	> Chrome  of Linux
+1000 TC > Firefox of Windows
+1000	> Chrome  of Windows
+-------------------------------------------
+
+Environment Need for Master|Hub:
+-------------------------------
+1.JDK
+2.Eclipse(Editor)
+3.Executable Drivers
+4.Selenium-standAloneServer
+5.Keep Executable Driver & selenium-standaloneServer in same folder
+
+Environment Need for Slave|Node:
+--------------------------------
+1.JDK
+2.Executable Drivers
+3.Selenium-standAloneServer
+4.Keep Executable Driver & selenium-standaloneServer in same folder
+
+----------------------------------------------------------------------------------------
+java -jar selenium-server-standalone-3.141.59 -role hub -port 1234
+----------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+
+By default node is configured 
+	5 Firefox
+	5 Chrome
+	1 IE     > 11 Browsers  in Windows
+
+
+	How to Change this default setting:
+	-----------------------------------
+	
+	Below command will be fired at Node:
+	------------------------------------
+	
+	java -jar selenium-server-standalone-3.141.59.jar -role node -hub 	http://192.168.0.104:4444/grid/register -browser browserName=opera,maxInstances=3 	-browser browserName=firefox,maxInstances=4 maxSession 3	
+	
+
+	maxInstances  > Number of copies can be run for particular browser(Chrome 4, 		       			firefox 3 etc.) 
+	maxSessions 3 >
+			Including All Browser How many copies of Browser can be run
+			Total Number of Browser that can be run at a time including all
+			browser.
+ --------------------------------------------------------------------------------------	
+
+
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.13.5</version>
+</dependency>
+
+
+
+
+		
+
+
+
+
+
+
+

@@ -1,0 +1,158 @@
+Suppose We have 
+
+For Automation Testing 
+
+Test Case > convert into language of Tool > Test Script
+
+1000 TC: All Test cases will not be taken for Automation Testing.
+-------- 
+
+
+
+Which Test Cases Should be Automated ?
+-------------------------------------
+1.Repetable & Reusable
+	1.Smoke Testing(BVT|BAT|Confidence Test)
+	2.Regression Testing
+	3.Compatibility Testing(Multi-Platform testing)
+	4.Data-Driven Testing | Parametrization
+		Repeating same steps(Actions) with different set of Data.
+			
+2.Test Cases Which is not possible to do manually
+	i.e Performance Testing
+
+--------------------------------------------------------
+
+Selenium :
+----------
+1.It is Functional Testing tool.
+2.Best Suited for Regression Testing
+3.It is Designed for Web Application Testing.
+4.Selenium Supports multiple platform(Windows, linux, MAc etc.)
+5.Selenium Supports multiple Browser(Chrome, Firefox, Opera etc.)
+6.Selenium Supports Multiple OOPs languages as well
+	Java, C#, Ruby, Python etc.
+7.Free 
+8.Open Source
+
+-------------------------------------------------------------
+
+Selenium Suite:
+--------------
+1.Selenium IDE
+	>It is available as Firefox & Chrome plug-in.
+	>Having Capacity of Record(Capture) & Playback
+	>Best tool to start with automation Testing since it is 
+	>easy to use
+	>Test Designing + Test Execution Tool.
+	
+	DisAdvantage:
+	1.does not support oops programming languages hence code 		reusablity is not possible.
+	2.Does not all supports browser
+
+2.Selenium RC | Selenium 1.0
+	1.First Tool is Selenium Suite which started supporting 		multiple OOPS Languages(Java,C#,Ruby, Python etc.)
+	2.First Tool is Selenium Suite which started supporting
+	Multiple Browser(i.e Chrome, Firefox, Opera etc.)
+	3.Test Designing + Test Execution Tool.
+	4.Single Machine + Multiple Browser
+	DisAdvantage"
+	1.RC Server is acting as middle Man Which is Adding Delay
+	2.RC Server need to be Started Everytime Manually Every 		Time
+
+3.Selenium WebDriver (Selenium 2.0 | Selenium 3.0 ) > Selenium 4.0
+	1.Supports Multiple programming languages
+	2.Supports multiple Browser
+	3.Test Designing + Test Execution Tool.
+	4.Single Machine + Multiple Browser
+
+	What Makes WebDriver Different:
+	1.It does not need any server to be started & which is 			adding delay.
+	2.Fast as Compare to Selenium RC
+	
+4.Selenium Grid
+	1.Hub(Master) and Node(Slave) Structure is used
+	2.Here, Multiple Systems are Used 
+	3.Used for Parallel Testing with various (Browser & OS 	combination).
+	4.With this Test Execution time is minimized.
+	5.Multiple Machine + Multiple Browser.
+
+-----------------------------------------------------
+
+History :
+---------
+1.In 2004, Jason Huggins Engineer at thoughtwork lab was performing Regression Testing.
+2.Jason understood that regression testing is repitative due to this productivity is so good.
+3.He has written one JavaScript having capacity of Record & Playback & Named as JavaScriptTestRunner > Selnium Core
+
+In 2004, QTP was Major tool in Market
+	
+----------------------------------------------------------------
+
+Selenium IDE:
+-------------
+
+
+
+--------------------------------------------------------------
+Selenium WebDriver:
+-------------------
+
+Environment Needed for WebDriver:
+1.JDK (Minimum 1.8 > )
+2.Editor(Notepad, Notepad++, Eclipse, Netbean etc.)
+3.Selenium Libraries
+	Selenium Java Libraries
+	Selenium Jars
+4.Browser Executable Driver
+	Chrome > ChromeDriver
+	Firefox> geckodriver
+
+
+
+--------------------------------------------------------------------------------------------------
+
+Element Locators:
+-----------------
+Properties which helps selenium to identify Web Objects | WebElements.
+
+
+
+
+1.id
+2.name
+3.linktext
+4.css
+5.Xpath
+
+----------------------------------------------------------------------------------------------
+Synchronization:
+-----------------
+	Matching Speed between two things(Software)
+	1.AUT|SUT > OrangeHRM
+	2.Selenium
+
+-------------------------------------------------------------------------------------
+CSS: Cascading Style sheet formal used for making website presentable.
+
+CSS Selector:
+	1.CSS with ID
+		tagname#id
+
+	2.CSS with name/type/value or any other Property
+		tagname[attribute='value of Attributes']
+
+	3.CSS with className
+		tagname.className	
+
+
+
+
+
+
+
+
+https://forms.gle/iWSyHMkqTry5M3U89
+
+
+

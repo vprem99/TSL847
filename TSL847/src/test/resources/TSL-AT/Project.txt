@@ -1,0 +1,46 @@
+
+STLC:
+
+Test Planning 
+Test Monitor & Coontrol
+Test Analysis 
+Test Design
+Test Implementation 
+Test Execution
+----------------------------------------------------------------------------
+
+1.Test Plan Writing
+2.Anlysis of Your application (Explore Application)
+3.Test Cases & Creat RTM
+4.Test Scripting
+5.Run your Script & Merge into single machine.
+-----------------------------------------------------
+
+----------------------------------------------------------------------------------------
+
+Test Planning:
+--------------
+
+Who is incharge of Which Activity ??
+>(Roles & Responsibilities)
+>Explore the Application.
+>Test Plan > 
+
+Features to be Tested (Scope of Testing.)
+>Login
+>Registration
+>One way flight
+>Round trip
+>Multi-city flight
+>Hotel
+>Code-Reusability, Java Coding Statndard,(Make reusable Functions)
+
+Test Analysis:
+
+
+
+
+
+
+
+

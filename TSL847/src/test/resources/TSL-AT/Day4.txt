@@ -1,0 +1,133 @@
+1.Actions
+2.Handling Multiple Tab | Windows
+3.Types of Xpath
+4.Taking ScreenSHot
+5.Tasks (Based on CP-SAT)
+
+--------------------------------------------------------------------------------
+ActionS:
+	1.COntrol keyboard & Mouse
+	i.e mouse hover
+	    >drag n drop
+	    >Pressing any key for long time & releasing them
+	    >contextClick > right click
+	    >doubleclick
+----------------------------------------------------------------------------------------
+What ?
+Data-Driven Testing | Parametrization:
+--------------------------------------
+	>Performing| doing same thing with different set of data.
+	 						DataSource
+							-----------
+	Test Script			> 		Excel Sheet
+							Data Base
+							CSV file
+							DataProvider (from TestNG)
+
+Why :
+-----
+	Fast & Reliable(Avoids Human Error)
+
+
+
+
+Why to Learn Read & Write Concept for Excel Sheet:
+--------------------------------------------------
+>Since Most of time source of Data is Excel sheet.
+
+
+
+
+JAVA 			OJDBC			DataBase
+JAVA 			POI			ExcelSheet
+
+--------------------------------------------------------------
+
+POI Supports .xls & .xlsx both extensions:
+------------------------------------------
+.xls		> 	HSSF Classes :
+.xlsx		>	XSSF Classes
+------------------------------------------
+
+WorkBook > Sheet > Cells(Row, Col)
+-------------------------------------
+
+
+
+
+from Raj Kamal Singh to everyone:
+done sir
+from Ashish Saini to everyone:
+Done
+from Rahul Kawatra to everyone:
+Done
+from Anurag Dixit to everyone:
+done
+from Ayushi Hasija to everyone:
+done
+
+
+Problem Statement:
+------------------
+1.Open https://jmeter.apache.org/
+2.Take Screenshot at this point
+3.Count Number of Tutorials available in Tutorial Section
+4.Print Name of Tutorial & respective pointing url in Excel Sheet 
+(Name of Tutorial & URL should be in different Columns).
+
+
+
+
+
+
+//ul//li//a[contains(text(),'Distributed Testing')]
+
+
+
+/html[1]/body[1]/div[2]/ul[4]/li[1]/ul[1]/li[1]/a[1]
+/html[1]/body[1]/div[2]/ul[4]/li[1]/ul[1]/li[3]/a[1]
+
+/html[1]/body[1]/div[2]/ul[4]/li[1]/ul[1]/li
+
+/html/body/div[2]/ul[4]/li/ul
+
+
+
+
+Abs Xpath :/html/body/div/div/div[5]/div[2]/h2/span
+
+
+Relative Xpath :   //*[@id="menu"]/div[2]/h2/span
+
+------------------------------------------------------------------------------
+1.What is Alert:
+---------------
+2.Types:
+	1.Informative
+	2.Confirmation Alert
+	3.Prompt Alert
+
+3.Why to learn:
+	In your application might be some prompt or confirmation will be there
+with the help of alert.
+	So you should know how to handle it.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

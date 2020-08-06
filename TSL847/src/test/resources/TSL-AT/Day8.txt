@@ -1,0 +1,100 @@
+1.Property file Reading:
+2.Keyword Driven Framework
+3.DataProvider+ KeywordDriven = Hybrid Framework
+
+
+
+--------------------------------------------------------
+Task:
+1.I need a function in which I will pass(as a argument) number of Rows & Columns that I am interested to read & that function will return 2D array containing all data.
+This function will be inside excel Reader.
+
+
+
+Page Object Model:POM
+------------------
+
+What ?
+------
+	Number of Java Classes is Equals to Number of Pages|Modules
+	The Objects Property is at Top(at Class level) & respective functions(Operations)
+	at the bottom.	
+	
+Why ?
+-----
+	1.Ease of Trace
+	2.Ease of Change
+	3.Code Reusability is there since We Made reusable function.
+	4.Time & Money both will be saved if POM is followed.
+
+Two Type:
+1.Simple POM
+2.Page Factory(official)
+
+
+
+-----------------------------------------------------------------------------
+
+1.This PC> Right CLick > Properties > Advanced System settings >EnvironMent variables > Click on Path of System Variable > Click on New > Past the Path
+
+2.How to Check version 
+	mvn --version
+
+
+------------------------------------------------------------------------------------
+What is Maven:
+--------------
+	1.Build Management Tool:  Combines all Classes into Single Executable File 
+					For developers
+	2.Project Managment Tool:
+		1.It gives you template (Architecture):BluePrint of your Project
+		2.Manages all External Jars as Dependencies of Project
+	3.Repositority:
+		All Jars are there
+
+	allure
+	extent report
+	openCSV				
+
+
+
+---------------------------------------------------------------------------
+src/main/java/ > POJO (Simple Classes)
+src/main/resources : 	excel, Property file,xml file, text file etc.
+
+
+
+
+
+
+src/test/java/ > Test Classes (TestNG |Junit Classes)
+src/test/resources : 	excel, Property file,xml file, text file, chromedriver, 			geckodriver, Screenshots etc.
+
+Parametrization using CSV file:
+-------------------------------
+Parametrization using database file:
+
+---------------------------------------------------------------------------------
+Scrolling using WebDriver:
+--------------------------
+
+
+
+
+
+1.For scrolling to particular element
+((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+2.For scrolling pixel by pixel
+((JavascriptExecutor) driver).executeScript(“window.scrollBy(x-pixels,y-pixels)”);
+3.For scrolling at bottom of page
+((JavascriptExecutor) driver).executeScript("window.scrollBy(0, document.body.scrollHeight)");
+
+
+
+
+
+
+
+
+
+

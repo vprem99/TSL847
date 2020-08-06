@@ -1,0 +1,143 @@
+1.Checking Links | Images
+2.Passing Parameter from testng xml file
+3.Cookie Handling
+4.Implicit 
+	1.NoSuchElementException
+	
+
+Explicit Wait : 1.For Particular Object
+		2.Polling time is 500 ms is fix 
+		3.TimeoutException
+
+Fluent Wait : 1.Particular Object
+	      2.Can be increase or Decrease in Polling time (Checking rate)
+		(Special Feature)
+	      3.TimeoutException
+
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //ul[@id='ui-id-1']/li/a[contains(text(),'XHVJKHMBKJBJ')] (tried for 30 second(s) with 500 milliseconds interval)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='ui-id-1']/li/a[contains(text(),'Ahmedddabad')]"}
+  (Session info: chrome=84.0.4147.89)
+
+---------------------------------------------------------------------------------------
+Base Class
+Property File Reading
+KeyWord Driven Framework:
+--------------------------
+
+
+StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+
+Your Page is Getting Refresh. if You are accessing Object Before refresh then you get StateElementException..
+1.Thread.Sleep > R&D
+2.Refreshing the List everyTime
+3.Page Factory > This Ignores (Handles) StaleElementException.
+
+---------------------------------------------------------------------
+Property File:
+-------------
+What is PropertyFile : A file containing Key & value.
+
+Why Should I use Property File:
+------------------------------
+	1.Make your Project Dynamic & Ease of Change (Do Change one Place & It will be 	reflected everyWhere.)
+
+
+Dev		testing|Stagging	Pre-Prod		Production 
+---		---------------	-	-------			-----------
+url		url			url			url
+
+
+
+xml 
+property
+json
+
+
+------------------------------------------------------------------------------------
+Keyword Driven FrameWork:
+	For Every Actions(Operation  that is performed  on Application ) resspective keyword(re-usable is Created). So that anyone can do TestScript writing for application.
+	
+	Mainly It is created Sr. Automation Engineer  so that during Scripting 
+Testers should face less challenges & there is need of Less coding.
+	
+	From Excel if Keywords are passed then any one can do TestScripting
+
+
+Why : It should be implemented so that anyone can do Automation Testing with less coding       Skills.
+--------------------------------------------------------------------------------------	
+
+
+
+type:
+-----
+okay sir
+from Ashish Saini to everyone:
+done
+from Anurag Dixit to everyone:
+done
+from Sainath Reddy to everyone:
+done
+from Rahul Kawatra to everyone:
+done\
+from ANAND SHARMA to everyone:
+done
+from Udaychandra to everyone:
+done
+from Pranav Jain to everyone:
+done
+from Praveen Singh to everyone:
+done
+from Karishma K to everyone:
+done
+from Rajendra to everyone:
+done
+from Patric William to everyone:
+done
+from Baswa Vamsi Krishna to everyone:
+done
+from Senin to everyone:
+done
+from Mukul to everyone:
+done
+from Divya Tyagi to everyone:
+done
+from Utkarsh Vasudeva to everyone:
+done
+from Raj Kamal Singh to everyone:
+done
+
+
+----------
+
+
+TASK:
+
+
+from ANAND SHARMA to everyone:
+done
+from Karishma K to everyone:
+done
+from ANAND SHARMA to everyone:
+ok
+from Baswa Vamsi Krishna to everyone:
+done sir
+from Ashish Saini to everyone:
+done
+from Sainath Reddy to everyone:
+done
+from Udaychandra to everyone:
+done
+from Rahul Kawatra to everyone:
+done
+from Praveen Singh to everyone:
+done
+from Raj Kamal Singh to everyone:
+done but it's showing null pointer exception
+
+
+
+
+----
+
+

@@ -1,0 +1,316 @@
+Suppose We have 
+
+For Automation Testing 
+
+Test Case > convert into language of Tool > Test Script
+
+1000 TC: All Test cases will not be taken for Automation Testing.
+-------- 
+
+
+
+Which Test Cases Should be Automated ?
+-------------------------------------
+1.Repetable & Reusable
+	1.Smoke Testing(BVT|BAT|Confidence Test)
+	2.Regression Testing
+	3.Compatibility Testing(Multi-Platform testing)
+	4.Data-Driven Testing | Parametrization
+		Repeating same steps(Actions) with different set of Data.
+			
+2.Test Cases Which is not possible to do manually
+	i.e Performance Testing
+
+--------------------------------------------------------
+
+Selenium :
+----------
+1.It is Functional Testing tool.
+2.Best Suited for Regression Testing
+3.It is Designed for Web Application Testing.
+4.Selenium Supports multiple platform(Windows, linux, MAc etc.)
+5.Selenium Supports multiple Browser(Chrome, Firefox, Opera etc.)
+6.Selenium Supports Multiple OOPs languages as well
+	Java, C#, Ruby, Python etc.
+7.Free 
+8.Open Source
+
+-------------------------------------------------------------
+
+Selenium Suite:
+--------------
+1.Selenium IDE
+	>It is available as Firefox & Chrome plug-in.
+	>Having Capacity of Record(Capture) & Playback
+	>Best tool to start with automation Testing since it is 
+	>easy to use
+	>Test Designing + Test Execution Tool.
+	
+	DisAdvantage:
+	1.does not support oops programming languages hence code 		reusablity is not possible.
+	2.Does not all supports browser
+
+2.Selenium RC | Selenium 1.0
+	1.First Tool is Selenium Suite which started supporting 		multiple OOPS Languages(Java,C#,Ruby, Python etc.)
+	2.First Tool is Selenium Suite which started supporting
+	Multiple Browser(i.e Chrome, Firefox, Opera etc.)
+	3.Test Designing + Test Execution Tool.
+	4.Single Machine + Multiple Browser
+	DisAdvantage"
+	1.RC Server is acting as middle Man Which is Adding Delay
+	2.RC Server need to be Started Everytime Manually Every 		Time
+
+3.Selenium WebDriver (Selenium 2.0 | Selenium 3.0 ) > Selenium 4.0
+	1.Supports Multiple programming languages
+	2.Supports multiple Browser
+	3.Test Designing + Test Execution Tool.
+	4.Single Machine + Multiple Browser
+
+	What Makes WebDriver Different:
+	1.It does not need any server to be started & which is 			adding delay.
+	2.Fast as Compare to Selenium RC
+	
+4.Selenium Grid
+	1.Hub(Master) and Node(Slave) Structure is used
+	2.Here, Multiple Systems are Used 
+	3.Used for Parallel Testing with various (Browser & OS 	combination).
+	4.With this Test Execution time is minimized.
+	5.Multiple Machine + Multiple Browser.
+
+-----------------------------------------------------
+
+History :
+---------
+1.In 2004, Jason Huggins Engineer at thoughtwork lab was performing Regression Testing.
+2.Jason understood that regression testing is repitative due to this productivity is so good.
+3.He has written one JavaScript having capacity of Record & Playback & Named as JavaScriptTestRunner > Selnium Core
+
+In 2004, QTP was Major tool in Market
+	
+----------------------------------------------------------------
+
+Selenium IDE:
+-------------
+
+
+
+--------------------------------------------------------------
+Selenium WebDriver:
+-------------------
+
+Environment Needed for WebDriver:
+1.JDK (Minimum 1.8 > )
+2.Editor(Notepad, Notepad++, Eclipse, Netbean etc.)
+3.Selenium Libraries
+	Selenium Java Libraries
+	Selenium Jars
+4.Browser Executable Driver
+	Chrome > ChromeDriver
+	Firefox> geckodriver
+
+
+
+--------------------------------------------------------------------------------------------------
+
+Element Locators:
+-----------------
+Properties which helps selenium to identify Web Objects | WebElements.
+
+
+
+
+1.id
+2.name
+3.linktext
+4.css
+5.Xpath
+
+----------------------------------------------------------------------------------------------
+Synchronization:
+-----------------
+	Matching Speed between two things(Software)
+	1.AUT|SUT > OrangeHRM
+	2.Selenium
+
+-------------------------------------------------------------------------------------
+CSS: Cascading Style sheet formal used for making website presentable.
+
+CSS Selector:
+	1.CSS with ID
+		tagname#id
+
+	2.CSS with name/type/value or any other Property
+		tagname[attribute='value of Attributes']
+
+	3.CSS with className
+		tagname.className	
+
+
+
+https://forms.gle/iWSyHMkqTry5M3U89
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+What is Selenium
+Selenium Suite
+History
+Environment Setup
+
+Scripts for 
+	1.Starting Browser
+	2.Opening URL
+	3.Finding Object & Doing Required Operation
+	4.Locators
+	5.CSS Selector Syntax
+	6.Handling Radio Button
+	7.Checking status of Radio button
+	8.Used How to work with Multiple Objects with same Propperty
+		findElements
+
+	
+
+-------------------------------------------------------------------------
+Difference Between FindElement & FindElements
+
+
+findElement				findElements
+-----------				-------------
+1.Used to work with single 		1.Used for working with multiple
+Object having unique property		Object having common Property
+
+2.Return type is WebElement		2.Return type is List<WebElement>
+
+3.NoSuchElementException		3.No Exception is thrown & it 
+is thrown when mentioned 		returns Empty list
+Object is not found
+-----------------------------------------------------------------------
+findElement ? > 
+	Finding web Object with loactor that you specify
+	
+findElements()
+	Grouping Objects with common Property
+
+
+Automation 
+
+
+Type of Testing:
+---------------
+Functional Testing:
+	Web Application Testing:
+	>Links | Hyperlinks () >To find  any link which is Broken Links
+
+
+	When you are going to do Automation Testing
+	>You will logging the total links that you checked along with 		thier name.
+----------------------------------------------------------------
+
+
+How to Handle droppDown:
+------------------------
+1.A WebObject |WebElement that enables to select one value from options 
+
+
+
+
+Why :
+----
+Any Form:
+--------
+1.text field
+2.radio button3
+3.Checkbox
+4.links
+5.dropdown
+
+you should be able to handle dropsown since any form going have dropdown
+
+
+How to handle :
+--------------
+Using Select Class (Available in Selenium) 
+	Three functions are available:
+		selectByVisibleText()
+		selectByIndex()
+		selectByValue()
+
+What ?
+	
+When ?
+
+Why ?
+	
+How ?
+	Using Select Class
+
+CET:
+---
+Mumbai
+Thane
+Navi Mumbai
+-----------------------------------------------------------------------
+
+
+Problem Scenario:
+-----------------
+1.Select depature City & Destination City then find flights
+2.Print total available flights
+3.Select 2nd Flight
+4.Fill Passenger details with Remember me & Purchase Flight.
+
+
+http://blazedemo.com
+
+----------------------------------------------------------------------
+Multi Select-DropDown:
+----------------------
+
+1.In Case of DropDown
+	1.Select the option from dropdown
+		1.selectByVisibleText
+		2.selectByValue()
+		3.selectByIndex
+		4.isMultiple  > boolen
+		5.getAllSelectedOptions  > getting all selected options
+			List<WebElement>
+		6.getOptions > getting all Options of drop down
+		7.deselectAll() >deselect all selected options
+		8.deselectByValue
+		  deselectByIndex
+		  deselectByVisibleText
+
+	2.How to MouseHover
+		By using Actios Class
+		
+
+----------------------------------------------------------------------
+
+
+Problem Statement:
+-----------------
+Under Publications > Annual Report is working or not  ?
+
+What Hover: After moving mouse over any Object the sub-menus are displayed 
+When: Developer uses for Minimizing clicks
+
+How to Handle with Selenium:
+----------------------------
+Actions Class helps to Control Mouse & Keyboard
+
+Why Should I use Actions:
+-------------------------
+Actions class gives facility for handling Mouse & Keyboard
+
+
+
+
+
