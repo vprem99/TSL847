@@ -16,6 +16,7 @@ public class ForgetPage extends BasePOM {
 	public void doReset(String id) {
 		driver.findElement(e_user).sendKeys(id);
 		driver.findElement(e_reset).click();
+		//driver.findElement(e_user).get
 	}
 
 	public void doCancel() {

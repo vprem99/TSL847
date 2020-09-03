@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ CookieTest.class, MyFirstJunit_Test.class, Title_Test.class, CookieFronAccounting.class })
+@SuiteClasses({ CookieTest.class, MyFirstJunit_Test.class})
 public class AllTests {
 
 }

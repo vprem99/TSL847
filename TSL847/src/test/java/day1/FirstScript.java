@@ -20,8 +20,8 @@ public class FirstScript {
 		 * "C:\\Users\\Bhajan\\Desktop\\SelJars\\drivers\\chromedriver.exe"); WebDriver
 		 * driver = new ChromeDriver(); // Starts Chrome Browser
 		 */
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Bhajan\\Desktop\\SelJars\\drivers\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver(); // Starts Chrome Browser
+		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); // Starts Chrome Browser
 
 		// Parent p=new Child
 		// Declaring variable as Parent type has benefit of Holding any Child Object
@@ -34,7 +34,7 @@ public class FirstScript {
 
 		// driver.findElement(By.linkText("Downloads")).click();
 
-		WebElement d = driver.findElement(By.linkText("Downloads"));
+		WebElement d = driver.findElement(By.linkText("Downloadss"));
 		d.click();
 
 		System.out.println("You are on " + driver.getTitle() + " Page");

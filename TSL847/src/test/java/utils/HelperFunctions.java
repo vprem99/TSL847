@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 
 public class HelperFunctions {
@@ -32,6 +33,7 @@ public class HelperFunctions {
 			System.setProperty("webdriver.gecko.driver",
 					".\\src\\test\\resources\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver(); // Starts Chrome Browser
+			//InternetExplorerDriver();
 			break;
 		}
 		default:

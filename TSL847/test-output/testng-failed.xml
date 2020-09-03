@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="day10.FluentWaitExample">
+      <class name="codility.NewTest">
         <methods>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="f2"/>
         </methods>
-      </class> <!-- day10.FluentWaitExample -->
+      </class> <!-- codility.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

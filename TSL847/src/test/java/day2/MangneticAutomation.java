@@ -39,5 +39,7 @@ public class MangneticAutomation {
 		s.deselectAll();  // This works only with multi select drop down
 		
 		driver.close(); // Cl
+		
+		//s.getFirstSelectedOption()
 	}
 }
